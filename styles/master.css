@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+  padding: 1%;
+  font-family: 'Candal', sans-serif;
+        font-weight: normal;
+        font-size: 60px;
+  background-color: #4D5052;
+}
+
+.top-bar {
+  background-color: #4D5052;
+  color: #fff;
+}
+
+ul a{
+  font-size: 35px;
+  color: #FF1CE1;
+}

@@ -4,11 +4,9 @@ export default class Header extends React.Component {
   render(){
     return(
       <div className="top-bar">
-        <ul className="menu">
-          <li>
-            Erika Megan Lim
-          </li>
-        </ul>
+        <div className="top-bar-title">
+          Erika Megan Lim
+        </div>
       </div>
     )
   }

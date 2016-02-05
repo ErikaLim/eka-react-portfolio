@@ -2,5 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Master from './components/master.jsx';
 import '../styles/master.css';
+import data from './model/data.js'
 
-ReactDOM.render( <Master />, document.getElementById('portfolio') );
+
+ReactDOM.render( <Master data={data} />, document.getElementById('portfolio') );
