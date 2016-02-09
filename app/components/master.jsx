@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './header.jsx'
-import Menu from './menu.jsx'
+import Viewbox from './viewbox.jsx'
 import Accordion from './accordion.jsx'
 import data from '../model/data.js'
 
@@ -21,12 +21,19 @@ export default class Master extends React.Component {
     return(
       <div className="main">
         <Header />
-        <Accordion
-            {...this.props}
-            accordionCategories={data.categories}
-            setActiveCategory={this.setCategoryAsActive}
-            category={this.state.activeCategory}
-        />
+        <div className="small-3 columns">
+          <Accordion
+              {...this.props}
+              accordionCategories={data.categories}
+              setActiveCategory={this.setCategoryAsActive}
+              category={this.state.activeCategory}
+          />
+        </div>
+
+      <div className="small-9 columns">
+        <Viewbox />
+      </div>
+
       </div>
     )
   }

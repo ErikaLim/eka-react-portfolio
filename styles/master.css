@@ -19,8 +19,8 @@ ul a{
 
 .accordion{
   background-color: #4D5052;
-  width: 300px;
-  margin-left: 14px;
+
+
 }
 
 .accordion-title {
@@ -29,11 +29,11 @@ ul a{
   font-weight: bold;
 }
 
- .accordion-title:hover{
+.accordion-title:hover{
   background-color: #4D5052;
 }
 
- .accordion-active {
+.accordion-active {
   display: block;
 }
 

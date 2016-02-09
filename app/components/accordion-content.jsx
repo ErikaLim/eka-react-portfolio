@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 export default class AccordionContent extends React.Component{
   render(){
     let classes = 'accordion-content';
