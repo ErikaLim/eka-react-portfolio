@@ -3,7 +3,7 @@ body {
   padding: 1%;
   font-family: 'Candal', sans-serif;
         font-weight: normal;
-        font-size: 60px;
+        font-size: 50px;
   background-color: #4D5052;
 }
 
@@ -17,7 +17,32 @@ ul a{
   color: #FF1CE1;
 }
 
-.categories {
-  font-size: 35px;
+.accordion{
+  background-color: #4D5052;
+  width: 300px;
+  margin-left: 14px;
+}
+
+.accordion-title {
+  font-size: 30px;
   color: #FF1CE1;
+  font-weight: bold;
+}
+
+ .accordion-title:hover{
+  background-color: #4D5052;
+}
+
+ .accordion-active {
+  display: block;
+}
+
+.accordion-content {
+  font-size: 20px;
+  color: #FF1CE1;
+  background-color: #4D5052;
+}
+
+.info {
+  color: #FFF;
 }

@@ -7,7 +7,9 @@ import data from '../model/data.js'
 export default class Master extends React.Component {
   constructor(props){
     super(props);
-    let categories = data.categories;
+    this.state = {
+      activeCategory: this.props.data.categories[0],
+    }
     this.setCategoryAsActive = this.setCategoryAsActive.bind(this);
   }
 
@@ -19,18 +21,12 @@ export default class Master extends React.Component {
     return(
       <div className="main">
         <Header />
-        <div className="row page">
-          <div className="small-4 columns align-left">
-            <Accordion {...this.props}
-              accordionCategories={data.categories}
-              setActiveCategory={this.setCategoryAsActive}
-              />
-          </div>
-          <div className="small-8 columns">
-
-          </div>
-        </div>
-
+        <Accordion
+            {...this.props}
+            accordionCategories={data.categories}
+            setActiveCategory={this.setCategoryAsActive}
+            category={this.state.activeCategory}
+        />
       </div>
     )
   }

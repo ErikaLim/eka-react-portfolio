@@ -19,6 +19,7 @@ export default class Accordion extends React.Component {
   }
 
   render(){
+    
     let categories = this.props.data.categories.map((accordionCategory, i) => {
       return(
         <div
@@ -31,12 +32,14 @@ export default class Accordion extends React.Component {
           <AccordionContent
             {...this.props}
             isActive={i === this.state.activeCategoryIndex}
+
           />
         </div>
       )
     });
 
     return(
+
       <div className="accordion" data-accordion role="tablist">
         <ReactCSSTransitionGroup transitionName="ease" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
           {categories}

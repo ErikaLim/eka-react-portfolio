@@ -2,7 +2,7 @@ export default {
   categories: [
     {
       name: "My Projects",
-      projects: [
+      info: [
         {
           name: "Less Wait",
           description: "",
@@ -24,9 +24,30 @@ export default {
         }
       ]
     },{
-      name: "About Me"
+      name: "About Me",
+      info: [
+        {
+          name: "Background",
+          description: ""
+        },{
+          name: "Education",
+          description: ""
+        }
+      ]
     },{
-      name: "Contact Me"
+      name: "Contact Me",
+      info: [
+        {
+          name: "GitHub",
+          description: "",
+        },{
+          name: "LinkedIn",
+          description: "",
+        },{
+          name: "Email",
+          description: ""
+        }
+      ]
     }
   ]
 }
