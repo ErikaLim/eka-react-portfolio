@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from './header.jsx'
-import Viewbox from './viewbox.jsx'
 import Accordion from './accordion.jsx'
-import data from '../model/data.js'
+import data from '../model/data1.js'
 
 export default class Master extends React.Component {
   constructor(props){
@@ -21,19 +20,12 @@ export default class Master extends React.Component {
     return(
       <div className="main">
         <Header />
-        <div className="small-3 columns">
-          <Accordion
-              {...this.props}
-              accordionCategories={data.categories}
-              setActiveCategory={this.setCategoryAsActive}
-              category={this.state.activeCategory}
-          />
-        </div>
-
-      <div className="small-9 columns">
-        <Viewbox />
-      </div>
-
+        <Accordion
+            {...this.props}
+            accordionCategories={data.categories}
+            setActiveCategory={this.setCategoryAsActive}
+            category={this.state.activeCategory}
+        />
       </div>
     )
   }

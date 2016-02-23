@@ -6,9 +6,9 @@ export default {
         {
           name: "Less Wait",
           description: "",
-          frontendUrl: "",
-          backendUrl: "",
-          deployedUrl: ""
+          frontendUrl: "https://github.com/ErikaLim/lessWait-frontend",
+          backendUrl: "https://github.com/ErikaLim/less-wait",
+          deployedUrl: "lesswait.netlify.com"
         },{
           name: "Boho Customizer",
           description: "",
@@ -21,6 +21,9 @@ export default {
           frontendUrl: "",
           backendUrl: "",
           deployedUrl: ""
+        },{
+          name: "React Portfolio",
+          description: ""
         }
       ]
     },{

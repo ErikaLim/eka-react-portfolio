@@ -8,7 +8,7 @@ export default class Accordion extends React.Component {
     super(props);
 
     this.state = {
-      activeCategoryIndex: 0,
+      activeCategoryIndex: '',
     }
   }
 
@@ -19,7 +19,7 @@ export default class Accordion extends React.Component {
   }
 
   render(){
-    
+
     let categories = this.props.data.categories.map((accordionCategory, i) => {
       return(
         <div

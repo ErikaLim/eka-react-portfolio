@@ -8,8 +8,9 @@ export default class AccordionContent extends React.Component{
     }
     let info = this.props.category.info.map((category)=>{
       return(
-        <div key={category.name}>
-          <a className="info">{category.name}</a>
+        <div key={category.description}>
+          <div className="description">{category.description}</div>
+          <div className="links">{category.links.name}</div>
         </div>
       )
     });
