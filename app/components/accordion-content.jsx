@@ -7,6 +7,7 @@ export default class AccordionContent extends React.Component{
       classes += ' accordion-active';
     }
     let info = this.props.category.info.map((category)=>{
+      console.log(category.links);
       return(
         <div key={category.description}>
           <div className="description">{category.description}</div>

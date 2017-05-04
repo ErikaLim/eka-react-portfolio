@@ -1,46 +1,51 @@
 body {
   width: 100%;
   padding: 1%;
-  font-family: 'Candal', sans-serif;
-        font-weight: normal;
-        font-size: 50px;
-  background-color: #4D5052;
+  font-family: 'Oswald', sans-serif;
+      font-weight: normal;
+      font-size: 50px;
+      color: #B4939D;
 }
 
 .top-bar {
-  background-color: #4D5052;
-  color: #fff;
+  font-family: 'Abril Fatface', sans-serif;
+  background-color: #E0D5D8;
+  color: #787575;
+  font-size: 75px;
 }
 
 ul a{
   font-size: 35px;
-  color: #FF1CE1;
+  color: #474343;
 }
 
 .accordion{
-  background-color: #4D5052;
+  background-color:  #E0D5D8;
 }
 
 .accordion-title {
-  font-size: 30px;
-  color: #FF1CE1;
-  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Abril Fatface', sans-serif;
+  color: #978A8E;
+
 }
 
 .accordion-title:hover{
-  background-color: #4D5052;
+  background-color: #E0D5D8;
+  color: #474343;
 }
 
 .accordion-active {
   display: block;
+  font-color: #474343;
 }
 
 .accordion-content {
-  font-size: 20px;
-  color: #FF1CE1;
-  background-color: #4D5052;
+  font-size: 30px;
+  color: #B4939D;
+  background-color: #E0D5D8;
 }
 
 .description {
-  color: #FFF;
+  color: #B4939D;
 }
