@@ -3,7 +3,7 @@ body {
   padding: 1%;
   font-family: 'Oswald', sans-serif;
       font-weight: normal;
-      font-size: 50px;
+      font-size: 25px;
       color: #B4939D;
 }
 
@@ -37,11 +37,11 @@ ul a{
 
 .accordion-active {
   display: block;
-  font-color: #474343;
+  color: #474343;
 }
 
 .accordion-content {
-  font-size: 30px;
+  font-size: 25px;
   color: #B4939D;
   background-color: #E0D5D8;
 }
